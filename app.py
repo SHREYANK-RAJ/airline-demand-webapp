@@ -10,7 +10,7 @@ st.title("✈️ Airline Booking Demand Trends")
 # Load data from free public API (Aviationstack)
 @st.cache_data
 def load_flight_data():
-    API_KEY = cc1fc5b5e7c4027c1d78a3c1b7978803
+    API_KEY = "cc1fc5b5e7c4027c1d78a3c1b7978803"
     url = "http://api.aviationstack.com/v1/flights"
     params = {
         "access_key": API_KEY,
